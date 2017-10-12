@@ -10,4 +10,14 @@ Increase international and local customers base and creating a visual, user-frie
 For the MVP we will be focusing on the prospective clients, users searching sustainable design solutions and the GIRIH staff members.
 
 ## User stories
-[] As a staff member, I want to be able to easily update the content of the website; add, edit and delete  
+- [] As a staff member, I want to be able to view analytics, stats and insights about the website.
+
+- [] As a staff member, I want to easily view, edit, add and delete categories and projects in the gallery.
+
+- [] As a staff member, I want to easily view, edit and update the company and team information.
+
+- [] As a guest user, I want to be able to easily view featured projects in the home page
+
+- [] As a guest user, I want to be able to calculate the estimated cost for a design (building or interior)
+
+- [] As a guest user, I want to be able to view different projects and categories in a gallery page.
