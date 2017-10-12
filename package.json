@@ -7,10 +7,14 @@
     "start": "node src/index.js",
     "start:watch": "nodemon -q src/index.js",
     "linter": "semistandard --fix ",
-    "test-db": "node tests/queriestest.js | tap-spec"
+    "test-db": "node tests/queriestest.js | tap-spec",
+    "build": "webpack && babel src --out-dir lib --copy-files",
+    "dev:build": "webpack",
+    "dev:start": "nodemon --exec babel-node ./src/index.js",
+    "lint": "eslint src --fix"
   },
   "pre-commit": [
-    "linter"
+    "lint"
   ],
   "license": "ISC",
   "dependencies": {
