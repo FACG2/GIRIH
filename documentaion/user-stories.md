@@ -10,7 +10,7 @@
   - open project page
   - open material page
   - open calculate page
-  - login page
+  - view login page
 
 ##Admin is a guest who can:
   - open dashboard page
